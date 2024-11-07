@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolSolution", "SchoolSolution.csproj", "{F7E96753-F2E9-4194-90A6-3B8EB127FDCE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\School.Infrastructure\Infrastructure.csproj", "{4073D0B0-FC84-4D9A-A900-3815C8F28476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Infrastructure", "..\School.Infrastructure\School.Infrastructure.csproj", "{4073D0B0-FC84-4D9A-A900-3815C8F28476}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "..\School.Domain\Application.csproj", "{B4991089-8B05-4DC8-AED0-B26A34DEF187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Application", "..\School.Domain\School.Application.csproj", "{B4991089-8B05-4DC8-AED0-B26A34DEF187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{ECA30F95-5875-4B74-9766-E2CBDAF82E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.Domain", "..\Domain\School.Domain.csproj", "{ECA30F95-5875-4B74-9766-E2CBDAF82E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
