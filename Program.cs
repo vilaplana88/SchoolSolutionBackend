@@ -1,3 +1,8 @@
+using Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Writers; 
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<SchoolContext>(options =>
+       options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
