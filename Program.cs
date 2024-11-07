@@ -1,7 +1,6 @@
+
 using Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Writers; 
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
